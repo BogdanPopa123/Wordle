@@ -4,11 +4,13 @@ Wordle is a simple guessing game where the player has to guess a five-letter wor
 
 ## Getting Started
 To play the game, you need to have ncurses installed on your system. If you don't have it, you can install it by running the following command:
-sudo apt-get install libncurses5-dev libncursesw5-dev
+
+    sudo apt-get install libncurses5-dev libncursesw5-dev
 
 Once you have ncurses installed, you can compile and run the game using the following commands:
-gcc -o wordle wordle.c -lncurses
-./wordle
+
+    gcc -o wordle wordle.c -lncurses
+    ./wordle
 
 ## How to Play
 When you run the game, you will see a window with five boxes, each representing a letter in the word you have to guess. You will also see a log window that shows your previous guesses and their results.
