@@ -18,7 +18,7 @@ To make a guess, type in a five-letter word and press Enter. The game will then 
 If you guess the word correctly, you win the game. If you run out of attempts without guessing the word, you lose the game.
 
 ## Customization
-The game comes with a default list of 27 words that it can choose from. If you want to add or remove words from this list, you can modify the cuvinte array in the source code.
+The game comes with a default list of 27 words that it can choose from. If you want to add or remove words from this list, you can modify the "cuvinte" array in the source code.
 
 ## Acknowledgements
 The game was created by an anonymous individual and gained popularity on Twitter in 2021.
